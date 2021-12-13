@@ -13,7 +13,7 @@ Looking for a position of a Front-end Developer
 
 2015 - Present Programmer engineer in a group of companies “Chetyre D”
 
-- Working in the software implementation department \*
+- Working in the software implementation department
 - Consulting users on the line of advising on working with a software product
 - Teamwork experience
 - Experience with customers
