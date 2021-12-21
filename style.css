@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth; /*чтобы прокрутка страницы по якорям проходила плавно*/
+}
+
+.body {
+  background-color: #ffffff;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 20px;
+  color: #d3d3d3;
+  display: flex;
+  align-items: center;
+}
