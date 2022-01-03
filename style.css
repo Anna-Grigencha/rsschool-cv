@@ -19,10 +19,8 @@ html {
 }
 
 .header {
-  /*position: fixed;*/
   margin: 0 auto;
   top: 0;
-  /* left: 0;*/
   background-color: #696969;
   display: flex;
   flex-wrap: wrap;
@@ -178,6 +176,7 @@ h3 {
 .project-description-video-player {
   position: relative;
 }
+
 h4 {
   margin-left: 20px;
 }
@@ -209,65 +208,3 @@ h4 {
 .rs-school-link:link {
   color: #ffffff;
 }
-
-/* Media start */
-
-@media screen and (max-width: 767px) {
-  .header-burger {
-    display: block;
-  }
-  .header-nav {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-    z-index: 10;
-    padding: 75px;
-    transform: translateX(100%);
-    transition: 0.2s all linear;
-  }
-
-  .header-nav-active {
-    transform: translateX(0);
-  }
-  .header-item {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 30px;
-  }
-
-  .header-item:last-child {
-    margin-bottom: 0;
-  }
-
-  .header-link {
-    font-size: 42px;
-    line-height: 48px;
-  }
-  .header-nav-close {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    top: 20px;
-    right: 20px;
-    z-index: 11;
-  }
-  .header-nav-close-line {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #ffffff;
-    position: absolute;
-    top: 50%;
-  }
-  .header-nav-close-line:first-child {
-    transform: translateY(-50%) rotate(45deg);
-  }
-  .header-nav-close-line:last-child {
-    transform: translateY(-50%) rotate(-45deg);
-  }
-}
-
-/* Media and */
