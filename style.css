@@ -105,12 +105,12 @@ html {
   text-align: right;
 }
 
-.section-name-about-me {
-  text-decoration: none;
-}
-
 .grey-section {
   background-color: #808080;
+}
+
+.section-name-about-me {
+  text-decoration: none;
 }
 
 .center {
