@@ -105,6 +105,12 @@ html {
   text-align: right;
 }
 
+.section-photo-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
 .grey-section {
   background-color: #808080;
 }
@@ -145,10 +151,10 @@ p {
 }
 
 .contacts {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .contact-block {
@@ -185,6 +191,11 @@ h3 {
   max-height: 300px;
 }
 
+.wrapper-photo-video-player {
+  max-width: 534px;
+  max-height: 300px;
+}
+
 .photo-clock {
   width: 100%;
   height: 100%;
@@ -192,6 +203,11 @@ h3 {
 
 .wrapper-photo-audio-player {
   max-width: 300px;
+}
+
+.photo-video-player {
+  width: 100%;
+  height: 100%;
 }
 
 .photo-audio-player {
